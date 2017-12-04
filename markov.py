@@ -3,7 +3,7 @@ import sys
 from collections import OrderedDict
 txt="the theremin is theirs, ok? yes, it is. this is a theremin." #Your sample text goes here.
 
-order=3 #Tou can change the order of the ngram here
+order=3 #You can change the order of the ngram here
 ngrams=[]
 count=OrderedDict()
 for i in range(0,len(txt)-order+1):
